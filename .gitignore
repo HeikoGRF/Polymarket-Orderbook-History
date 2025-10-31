@@ -1,0 +1,83 @@
+# OS
+.DS_Store
+
+# Editors/IDE
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*
+
+# Python venv
+venv/
+
+# Go build artifacts
+bin/
+build/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go vendor (if ever used)
+vendor/
+
+# Logs
+*.log
+
+# Project data (generated runtime data and snapshots)
+data/
+
+# Local binary
+polymarket_client
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+
+# Dependency directories
+vendor/
+
+# Python virtual environment (existing in project)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build output
+/orderbook_listener
+/bin/
+
+# Data files
+/data/
+*.json
+
